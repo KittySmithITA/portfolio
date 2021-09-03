@@ -31,7 +31,7 @@ via *JDBC*.  The following operations are available:
 
 `POST /{owner}/feedback` - submits feedback (to the Watson Tone Analyzer)
 
-All operations return *JSON*.  A *portfolio* object contains fields named *owner*, *total*, *loyalty*, *balance*,
+All operations return *JSON*. A *portfolio* object contains fields named *owner*, *total*, *loyalty*, *balance*,
 *commissions*, *free*, *sentiment*, and *nextCommission*, plus an array of *stocks*.  A *stock* object contains
 fields named *symbol*, *shares*, *commission*, *price*, *total*, and *date*.  The only operation that takes any
 query params is the `PUT` operation, which expects params named *symbol* and *shares*.  Also, the `feedback`
